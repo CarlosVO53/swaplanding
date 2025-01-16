@@ -88,8 +88,14 @@
     <h1 class="hidden-h1">Swap padel tour</h1>
 
     <!-- Video de fondo -->
-    <video class="video-bg" autoplay loop muted playinline>
-        <source src="src/video/inicio.mp4" type="video/mp4" alt="swappadel-video-inicio">
+    <video
+    class="video-bg"
+    autoplay
+    loop
+    muted
+    playsinline
+    >
+        <source src="src/video/inicio.mp4" type="video/mp4">
         Tu navegador no soporta videos.
     </video>
 
@@ -109,7 +115,7 @@
     </div>
     <!-- Boton Bajar -->
     <div class="btntext-bajar">
-        <a href="#segundo-div">
+        <a href="#main-content">
             #SWAPTHEGAME
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="arrow-icon">
@@ -121,7 +127,7 @@
 
 <!-- Content -->
 
-<div class="container-principal" id="segundo-div">
+<div class="container-principal" id="main-content">
     <div class="content-grup cnt-gr-left">
         <h3 class="content-title">¿Qué es SWAP PADEL? </h3>
         <p class="content-text"><span class="swap-mark">Swap padel</span> es una competición que ha llegado para
