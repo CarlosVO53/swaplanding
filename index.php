@@ -88,7 +88,7 @@
     <h1 class="hidden-h1">Swap padel tour</h1>
 
     <!-- Video de fondo -->
-    <video class="video-bg" autoplay loop muted>
+    <video class="video-bg" autoplay loop muted playinline>
         <source src="src/video/inicio.mp4" type="video/mp4" alt="swappadel-video-inicio">
         Tu navegador no soporta videos.
     </video>
@@ -214,7 +214,8 @@
         <h3 class="content-title">Dinamismo y frenetismo</h3>
         <div class="row align-items-center">
             <div class="col-sm-6 order-sm-1 order-2">
-                <img src="src/img/landing/swappadel-calendar.png" class="img-fluid h-100" style="object-fit: cover;">
+                <!-- <img src="src/img/landing/swappadel-calendar.png" class="img-fluid h-100" style="object-fit: cover;"> -->
+                <img src="src/img/landing/swappadel-calendar.png" class="img-content">
             </div>
             <div class="col-sm-6 order-sm-2 order-1">
                 <p class="content-text">Grácias a la organización del calendario anual podemos contar con una estructura
