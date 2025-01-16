@@ -1,0 +1,303 @@
+    /* Definir variables en :root (global) */
+:root {
+    --bg-color: #161616;
+    --primary-color: #FCC136;
+    --secondary-color: #393E46;
+    --color-3: #FFFFFF;
+    --color-4: #1A1A1A;
+    --font-size: 16px;
+}
+    
+@font-face {
+    font-family: 'cocogothic'; /* Nombre personalizado */
+    src: url('../fonts/CocoGothic.ttf') format('truetype'); /* Backup */
+    font-weight: normal; /* Opcional: normal o bold */
+    font-style: normal;  /* Opcional: normal o italic */
+}
+    
+    .anton-regular {
+        font-family: "Anton", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+
+
+    body {
+        font-family: 'Anton', sans-serif;
+        background-color: var(--bg-color);
+        overflow-x: hidden;
+    }
+
+    .fullscreen {
+        height: 100vh;
+        /* Ocupa todo el alto de la ventana */
+        width: 100%;
+        /* Ocupa todo el ancho */
+    }
+
+
+    /* INICIO */ 
+    
+    .hidden-h1 {
+        position: absolute;
+        left: -9999px;
+        top: -9999px;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+    }
+
+    .video-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        /* Ajusta el video para cubrir todo el contenedor */
+        z-index: -1;
+        /* Envía el video al fondo */
+        filter: grayscale(100%);
+        /* Aplica blanco y negro y desenfoque */
+    }
+
+    .content {
+        position: relative;
+        height: 100vh;
+        /* Todo el alto de la pantalla */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 150px;
+    }
+
+    .logos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logoprincipal {
+        width: 15%;
+    }
+    .logolargo {
+        width: 60%;
+    }
+
+    .subtitulo1 {
+        color: white;
+        font-size: 50px;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .subtitulo2 {
+        color: var(--primary-color);
+        font-size: 50px;
+        font-style: italic;
+    }
+
+    .btntext-bajar {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        color: var(--primary-color);
+        font-size: 35px;
+        display: flex;  /* Alinea los elementos de manera horizontal */
+        align-items: flex-end;  /* Centra el icono y el texto verticalmente */
+        margin: 0; /* Elimina cualquier margen en el contenedor */
+        padding: 0; /* Elimina cualquier relleno en el contenedor */
+        z-index: 10;
+    }
+    .btntext-bajar a {
+        text-decoration: none; /* Elimina el subrayado */
+        color: inherit; /* Hereda el color del texto de su contenedor padre */
+    }
+    
+    .arrow-icon {
+        width: 104px; /* Ajusta el tamaño de la flecha */
+        height: 104px; /* Ajusta el tamaño de la flecha */
+        margin-left: 10px; /* Añade un espacio entre el texto y la flecha */
+        padding: 0; /* Elimina el relleno del icono */
+        margin: 0; /* Elimina el margen del icono */
+        stroke: var(--primary-color); /* Asegura que el icono tenga el mismo color que el texto */
+    }
+
+
+       /* CONTENIDO */ 
+
+       .container-principal{
+        width: 100vw;
+        min-height: 100vh;
+        padding:0% 10%;
+        background-color: var(--bg-color);
+        display: flex;
+        flex-direction: column;
+        font-family: "ANTON";
+       }
+    
+       .content-grup{
+        padding: 50px 100px 20px 100px ;
+        display: flex;
+        flex-direction: column;
+
+       }
+
+       .cnt-gr-left{
+        align-items: flex-start;
+        text-align: justify;
+
+       }
+
+       .cnt-gr-right{
+        align-items: flex-end;
+        text-align: right;
+
+       }
+
+       .content-title{
+        color:var(--primary-color);
+        font-size: 55px;
+        font-style: italic;
+        border-bottom: solid 4px var(--color-3)
+       }
+
+       .content-text{
+        font-family: "poppins";
+        font-size: 20px;
+        letter-spacing: 2px;
+        color: var(--color-3);
+        width: 100%;
+        padding-top: 20px;
+       }
+
+       .content-info{
+        width:100%;
+        color: var(--color-3);
+        font-size: 45px;
+        font-style: italic;
+        margin: 80px 0px 0px 0px;
+        padding: 20px;
+        background-color: var(--color-4);
+        text-align: center;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+        
+
+       }
+
+       .swap-mark{
+        color: var(--primary-color);
+       }
+
+       .cnt-card-group {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias filas */
+        justify-content: space-between;
+        margin-top: 40px;
+        gap: 40px;
+    }
+
+       .cnt-card{
+        width: calc(25% - 30px);
+        display: flex;
+        flex-direction: column;
+        background-color: var(--color-4);
+        text-align: center;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+       }
+
+       .card-number{
+        color: transparent;
+        font-size: 14em;
+        -webkit-text-stroke: 0.4rem var(--color-3);
+        line-height: 1.2em;
+       }
+
+       .card-text{
+       color:var(--primary-color);
+       font-size: 30px;
+       padding-bottom: 20px;
+       }
+
+       .cnt-li{
+        font-family: "poppins";
+        font-size: 20px;
+        letter-spacing: 2px;
+        color: var(--primary-color);
+        width: 100%;
+        padding-top: 20px;
+       }
+
+       .cnt-li-text{
+        color: var(--color-3);
+       }
+
+       .cnt-li p{
+        color: var(--color-3);
+       }
+
+       .cnt-li-title{
+        font-family: "poppins";
+        font-size: 20px;
+        letter-spacing: 2px;
+        color: var(--primary-color);
+        width: 100%;
+        padding-top: 20px;
+       }
+
+       .card-contact{
+        width: 100%;
+        height: 100%;
+        background-color: var(--color-4);
+       }
+
+       
+       .img-content{
+        width: 100%;
+        height: 100%;
+       }
+
+       .content-contact{
+        width:100%;
+        font-family: "poppins";
+        color: var(--primary-color);
+        font-size: 25px;
+        margin: 20px 0px 0px 0px;
+        padding: 20px;
+        background-color: var(--color-4);
+        text-align: center;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+        text-align: center;
+        
+
+       }
+
+
+
+       .content-contact i{
+        font-size: 35px;
+        padding-right: 15px;
+        color: var(--color-3)
+       }
+
+
+       .footer {
+        margin-top: 60px;
+        padding: 20px;
+        width: 100vw;
+        background-color: var(--primary-color);
+        color: var(--bg-color);
+        font-size: 15px;
+        font-family: "poppins";
+        text-align: center;
+        font-weight: bold;
+       }
