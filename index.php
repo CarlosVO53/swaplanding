@@ -1,74 +1,83 @@
 <!DOCTYPE html>
 <html lang="es">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F9CTNYRZW3"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-<title>Swappadel - El padel como nunca lo habías jugado.</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Swappadel - El padel como nunca lo habias jugado.">
+    gtag('config', 'G-F9CTNYRZW3');
+    </script>
+    <title>Swappadel - El padel como nunca lo habías jugado.</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Swappadel - El padel como nunca lo habias jugado.">
 
-<meta property="og:title" content="Swap Padel Tour">
-<meta property="og:description" content="Swappadel - El padel como nunca lo habias jugado.">
-<meta property="og:image" content="https://swappadeltour.com/src/img/logos/swappadel-logo.jpg">
-<meta property="og:url" content="https://swappadeltour.com">
-<meta property="og:type" content="website"> <!-- Tipo de contenido -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Swappadel - El padel como nunca lo habias jugado.">
-<meta name="twitter:description" content="Swappadel - El padel como nunca lo habias jugado.">
-<meta name="twitter:image" content="https://swappadeltour.com/src/img/logos/swappadel-logo.jpg">
-
-
-<!-- Boostrap -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-<!-- Fuentes -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-    href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
+    <meta property="og:title" content="Swap Padel Tour">
+    <meta property="og:description" content="Swappadel - El padel como nunca lo habias jugado.">
+    <meta property="og:image" content="https://swappadeltour.com/src/img/logos/swappadel-logo.jpg">
+    <meta property="og:url" content="https://swappadeltour.com">
+    <meta property="og:type" content="website"> <!-- Tipo de contenido -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Swappadel - El padel como nunca lo habias jugado.">
+    <meta name="twitter:description" content="Swappadel - El padel como nunca lo habias jugado.">
+    <meta name="twitter:image" content="https://swappadeltour.com/src/img/logos/swappadel-logo.jpg">
 
 
-<!-- Hacer referencia a la hoja de estilo general -->
-<link rel="stylesheet" href="css/style.css">
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-<!-- Hacer referencia a la hoja de estilo para móviles con una media query -->
-<link rel="stylesheet" href="css/style-mobile.css" media="only screen and (max-width: 768px)">
-
-
-<!-- Iconos -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<!-- Favicon -->
-
-<link rel="apple-touch-icon" sizes="57x57" href="src/img/favicon/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="src/img/favicon/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="src/img/favicon/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="src/img/favicon/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="src/img/favicon/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="src/img/favicon/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="src/img/favicon/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="src/img/favicon/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="src/img/favicon/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="src/img/favicon/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="src/img/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="src/img/favicon/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="src/img/favicon/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
 
+    <!-- Hacer referencia a la hoja de estilo general -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Hacer referencia a la hoja de estilo para móviles con una media query -->
+    <link rel="stylesheet" href="css/style-mobile.css" media="only screen and (max-width: 768px)">
 
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Swappadel - El padel como nunca lo habias jugado.",
-  "description": "Swappadel - El padel como nunca lo habias jugado.",
-  "url": "https://swappadeltour.com/",
-  "thumbnailUrl": "https://tusitio.com/imagen.jpg"
-}
-</script>
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Favicon -->
+
+    <link rel="apple-touch-icon" sizes="57x57" href="src/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="src/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="src/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="src/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="src/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="src/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="src/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="src/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="src/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="src/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="src/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="src/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="src/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+
+
+
+
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Swappadel - El padel como nunca lo habias jugado.",
+    "description": "Swappadel - El padel como nunca lo habias jugado.",
+    "url": "https://swappadeltour.com/",
+    "thumbnailUrl": "https://tusitio.com/imagen.jpg"
+    }
+    </script>
 
 </head>
 
