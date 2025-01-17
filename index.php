@@ -22,7 +22,7 @@
         <meta property="og:url" content="https://swappadeltour.com">
         <meta property="og:type" content="website"> <!-- Tipo de contenido -->
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Swappadel - El padel como nunca lo habias jugado.">
+        <meta name="twitter:title" content="Swappadel - El pádel como nunca lo habías jugado.">
         <meta name="twitter:description" content="Descubre en Swappadel una competición de pádel totalmente renovada: gestión de temporadas, ascensos y descensos, y la máxima emoción en cada partido.">
         <meta name="twitter:image" content="https://swappadeltour.com/src/img/logos/swappadel-logo.jpg">
 
@@ -125,7 +125,7 @@
 
                 </div>
 
-                <h2 class="subtitulo1">EL PADEL COMO NUNCA LO HABÍAS JUGADO</h2>
+                <h2 class="subtitulo1">EL PÁDEL COMO NUNCA LO HABÍAS JUGADO</h2>
 
             </div>
             <!-- Boton Bajar -->
@@ -191,18 +191,18 @@
                         <span class="cnt-li-title">¿Cómo serán las jornadas?</span>
                         <p>Cada jornada jugarás de compañero con un participante de la división y os enfrentaréis a una
                             pareja
-                            de jugadores de vuestra divisón, al finalizar la temporada habrás jugado con todos los jugadores
+                            de jugadores de vuestra división, al finalizar la temporada habrás jugado con todos los jugadores
                             una
                             vez de pareja y te habrás enfrentado a todos dos veces.</p>
                     </li>
                     <li class="cnt-li">
                         <span class="cnt-li-title">¿Cómo funciona la clasificación?</span>
-                        <p>Contamos con un sistema de clasificación individial, por lo que la pareja que gana se llevará 3
+                        <p>Contamos con un sistema de clasificación individual, por lo que la pareja que gana se llevará 3
                             puntos y la pareja derrotada se llevará 1 punto o 0 dependiendo de si consigue ganar un set.</p>
                     </li>
                     <li class="cnt-li">
                         <span class="cnt-li-title">¿Cómo funcionan las divisiones?</span>
-                        <p>Las temporadas de 3 meses hacen que las divisiones esten equilibradas constantemente para
+                        <p>Las temporadas de 3 meses hacen que las divisiones estén equilibradas constantemente para
                             garantizar
                             la máxima competitividad, cada temporada ascenderá y descenderá un jugador de manera directa y
                             otro
@@ -222,16 +222,16 @@
                 <p class="content-text text-start">1. Consulta tu calendario</p>
                 <img src="src/img/landing/swappadel-matchs.png" class="img-content" alt="Partidos de swappadel">
 
-                <p class="content-text text-end">2.Organiza tu partido, juega e intruduce tu resultado</p>
+                <p class="content-text text-end">2.Organiza tu partido, juega e introduce tu resultado</p>
                 <img src="src/img/landing/swappadel-details.png" class="img-content" alt="Detalles de partido Swappadel">
 
                 <p class="content-text text-start">3.La clasificación se actualizará automáticamente</p>
                 <img src="src/img/landing/swappadel-standing.png" class="img-content" alt="Clasificación de Swappadel">
 
-                <p class="content-text text-end">4. Consultas tus estadísticas</p>
+                <p class="content-text text-end">4. Consulta tus estadísticas</p>
                 <img src="src/img/landing/swappadel-stadistics.png" class="img-content" alt="Estadísticas de Swappadel">
 
-                <p class="content-text text-start">5. Muevete por las diferentes posibilidades de la WebApp: consulta de
+                <p class="content-text text-start">5. Muévete por las diferentes posibilidades de la WebApp: consulta de
                     normativa, gestión de calendario, visualizador de enfrentamientos, histórico de temporadas...</p>
                 <img src="src/img/landing/swappadel-options.png" class="img-content" alt="Opciones de Swappadel">
             </div>
@@ -244,7 +244,7 @@
                         <img src="src/img/landing/swappadel-calendar.png" class="img-content" alt="Ejemplo de calendario de temporada">
                     </div>
                     <div class="col-sm-6 order-sm-2 order-1">
-                        <p class="content-text">Grácias a la organización del calendario anual podemos contar con una
+                        <p class="content-text">Gracias a la organización del calendario anual podemos contar con una
                             estructura
                             de partidos bien definida y la posibilidad de organizar nuestro evento estrella, el <span
                                 class="swap-mark">Swap Padel Day</span></p>
@@ -253,10 +253,7 @@
                             competitividad.</p>
                     </div>
                 </div>
-                <p class="content-text text-decoration-underline text-center">No te preocupes por las fechas, nosotros nos
-                    adaptamos a tus necesidades, sabemos que cada liga tiene unas necesidades por lo que haremos el
-                    calendario
-                    de la forma que mejor se adapte a la liga.</p>
+                <p class="content-text text-decoration-underline text-center">No te preocupes por las fechas, nos adaptamos a tus necesidades. Entendemos que cada liga tiene sus propias particularidades, así que diseñaremos el calendario de la manera que mejor encaje contigo.</p>
             </div>
 
             <div class="content-grup cnt-gr-left">
@@ -278,7 +275,7 @@
                     </div>
                     <div class="col-sm-6">
                         <div class="content-info">
-                            Consultanos para saber más y te daremos un presupuesto adaptado a tu competición
+                            Consúltanos para saber más y te daremos un presupuesto adaptado a tu competición
                         </div>
                     </div>
                 </div>
@@ -308,7 +305,7 @@
             </div>
         </div>
         <div class="footer">
-            Todos los derechos reservados SwappadelTour ®
+            Todos los derechos reservados · SwappadelTour ®
         </div>
     </body>
 </html>
