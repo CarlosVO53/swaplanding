@@ -11,10 +11,10 @@
 
             gtag('config', 'G-F9CTNYRZW3');
         </script>
-        <title>Swappadel - El padel como nunca lo habías jugado.</title>
+        <title>Swappadel - La reinvención del pádel.</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Swappadel - El padel como nunca lo habias jugado.">
+        <meta name="description" content="Swappadel - La reinvención del pádel.">
 
         <meta property="og:title" content="Swap Padel Tour">
         <meta property="og:description" content="Swappadel - El padel como nunca lo habias jugado.">
