@@ -14,16 +14,16 @@
         <title>Swappadel - La reinvención del pádel.</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Swappadel - La reinvención del pádel.">
+        <meta name="description" content="Descubre en Swappadel una competición de pádel totalmente renovada: gestión de temporadas, ascensos y descensos, y la máxima emoción en cada partido.">
 
         <meta property="og:title" content="Swap Padel Tour">
-        <meta property="og:description" content="Swappadel - El padel como nunca lo habias jugado.">
+        <meta property="og:description" content="Descubre en Swappadel una competición de pádel totalmente renovada: gestión de temporadas, ascensos y descensos, y la máxima emoción en cada partido.">
         <meta property="og:image" content="https://swappadeltour.com/src/img/logos/swappadel-logo.jpg">
         <meta property="og:url" content="https://swappadeltour.com">
         <meta property="og:type" content="website"> <!-- Tipo de contenido -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="Swappadel - El padel como nunca lo habias jugado.">
-        <meta name="twitter:description" content="Swappadel - El padel como nunca lo habias jugado.">
+        <meta name="twitter:description" content="Descubre en Swappadel una competición de pádel totalmente renovada: gestión de temporadas, ascensos y descensos, y la máxima emoción en cada partido.">
         <meta name="twitter:image" content="https://swappadeltour.com/src/img/logos/swappadel-logo.jpg">
 
 
@@ -65,21 +65,51 @@
         <link rel="icon" type="image/png" sizes="96x96" href="src/img/favicon/favicon-96x96.png">
         <link rel="icon" type="image/png" sizes="16x16" href="src/img/favicon/favicon-16x16.png">
         <link rel="manifest" href="/manifest.json">
-
         <script type="application/ld+json">
-        {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": "Swappadel - El padel como nunca lo habias jugado.",
-        "description": "Swappadel - El padel como nunca lo habias jugado.",
-        "url": "https://swappadeltour.com/",
-        "thumbnailUrl": "https://tusitio.com/imagen.jpg"
-        }
+            {
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "Organization",
+                  "@id": "https://swappadeltour.com/#organization",
+                  "name": "Swappadel",
+                  "url": "https://swappadeltour.com/",
+                  "logo": "https://swappadeltour.com/src/img/logos/swappadel-logo.png",
+                  "description": "El pádel como nunca lo habías jugado.",
+                  "contactPoint": [
+                    {
+                      "@type": "ContactPoint",
+                      "contactType": "customer support",
+                      "email": "hola@swappadeltour.com"
+                    }
+                  ],
+                  "sameAs": [
+                    "https://www.instagram.com/swappadel/"
+                  ]
+                },
+                {
+                  "@type": "WebSite",
+                  "@id": "https://swappadeltour.com/#website",
+                  "url": "https://swappadeltour.com/",
+                  "name": "Swappadeltour"
+                },
+                {
+                  "@type": "WebPage",
+                  "@id": "https://swappadeltour.com/#webpage",
+                  "name": "Swappadel - El pádel como nunca lo habías jugado.",
+                  "description": "Competición de pádel diferente, con ascensos, descensos y máxima emoción.",
+                  "url": "https://swappadeltour.com/",
+                  "isPartOf": {
+                    "@id": "https://swappadeltour.com/#website"
+                  },
+                  "thumbnailUrl": "https://swappadeltour.com/src/img/logos/swappadel-logo.png"
+                }
+              ]
+            }
         </script>
     </head>
     <body>
         <div class="fullscreen d-flex justify-content-center align-items-center">
-            <h1 class="hidden-h1">Swap padel tour</h1>
             <!-- Video de fondo -->
             <video class="video-bg" autoplay loop muted playsinline>
                 <source src="src/video/inicio.mp4" type="video/mp4">
@@ -87,11 +117,11 @@
             </video>
             <!-- Contenido encima del video -->
             <div class="content">
-                <h3 class="subtitulo2">WELCOME TO <i class="fa-solid fa-down-long"></i></h3>
+                <h1 class="subtitulo2">WELCOME TO <i class="fa-solid fa-down-long"></i></h1>
                 <div class="logos">
 
-                    <img class="logoprincipal" src="src/img/logos/swappadel-logo.png" alt="Logo-Swappadel">
-                    <img class="logolargo" src="src/img/logos/swappadel-logo-largo.png" alt="Logo-Swappadel-Largo">
+                    <img class="logoprincipal" src="src/img/logos/swappadel-logo.png" alt="Logo de swappadel">
+                    <img class="logolargo" src="src/img/logos/swappadel-logo-largo.png" alt="Logo de swappadel largo">
 
                 </div>
 
@@ -114,14 +144,14 @@
 
         <div class="container-principal" id="main-content">
             <div class="content-grup cnt-gr-left">
-                <h3 class="content-title">¿Qué es SWAP PADEL? </h3>
+                <h2 class="content-title">¿Qué es SWAP PADEL? </h2>
                 <p class="content-text"><span class="swap-mark">Swap padel</span> es una competición que ha llegado para
                     reinventar los formatos monótonos y repetitivos con el fin de fomentar la comunidad y ofrecer la máxima
                     emoción en cada partido.</p>
 
                 <p class="content-text"><span class="swap-mark">Todas nuestras competiciones <b>incluyen</b>:</span></p>
                 <ul>
-                    <li class="cnt-li"><span class="cnt-li-text">Gestión de las tempordas</span></li>
+                    <li class="cnt-li"><span class="cnt-li-text">Gestión de las temporadas</span></li>
                     <li class="cnt-li"><span class="cnt-li-text">Acceso a nuestra WebApp</span></li>
                     <li class="cnt-li"><span class="cnt-li-text">Bote de bolas para cada jugador </span></li>
                     <li class="cnt-li"><span class="cnt-li-text">Trofeos para los ganadores</span></li>
@@ -130,7 +160,7 @@
             </div>
 
             <div class="content-grup cnt-gr-right">
-                <h3 class="content-title">Lo que nos hace únicos</h3>
+                <h2 class="content-title">Lo que nos hace únicos</h2>
                 <div class="cnt-card-group">
                     <div class="cnt-card">
                         <div class="card-number">8</div>
@@ -155,7 +185,7 @@
             </div>
 
             <div class="content-grup cnt-gr-left">
-                <h3 class="content-title">Una nueva forma de jugar</h3>
+                <h2 class="content-title">Una nueva forma de jugar</h2>
                 <ul>
                     <li class="cnt-li">
                         <span class="cnt-li-title">¿Cómo serán las jornadas?</span>
@@ -180,7 +210,7 @@
                     </li>
                     <li class="cnt-li">
                         <span class="cnt-li-title">¿Cómo es la gestión de los partidos?</span>
-                        <p>Al comenzar la temporada, se generará automaticamente el calendario y podrás gestionar desde
+                        <p>Al comenzar la temporada, se generará automáticamente el calendario y podrás gestionar desde
                             nuestra
                             plataforma los horarios, resultados, clasificaciones y muchas más funcionalidades.</p>
                     </li>
@@ -188,30 +218,30 @@
             </div>
 
             <div class="content-grup cnt-gr-left">
-                <h3 class="content-title">¿Cómo funciona?</h3>
+                <h2 class="content-title">¿Cómo funciona?</h2>
                 <p class="content-text text-start">1. Consulta tu calendario</p>
-                <img src="src/img/landing/swappadel-matchs.png" class="img-content" alt="Partidos-Swappadel-Demo">
+                <img src="src/img/landing/swappadel-matchs.png" class="img-content" alt="Partidos de swappadel">
 
                 <p class="content-text text-end">2.Organiza tu partido, juega e intruduce tu resultado</p>
-                <img src="src/img/landing/swappadel-details.png" class="img-content" alt="Detalles-Partido-Swappadel-Demo">
+                <img src="src/img/landing/swappadel-details.png" class="img-content" alt="Detalles de partido Swappadel">
 
-                <p class="content-text text-start">3.La clasificación se actualizará automaticamente</p>
-                <img src="src/img/landing/swappadel-standing.png" class="img-content" alt="Clasificación-Swappadel-Demo">
+                <p class="content-text text-start">3.La clasificación se actualizará automáticamente</p>
+                <img src="src/img/landing/swappadel-standing.png" class="img-content" alt="Clasificación de Swappadel">
 
                 <p class="content-text text-end">4. Consultas tus estadísticas</p>
-                <img src="src/img/landing/swappadel-stadistics.png" class="img-content" alt="Estadisticas-Swappadel-Demo">
+                <img src="src/img/landing/swappadel-stadistics.png" class="img-content" alt="Estadísticas de Swappadel">
 
                 <p class="content-text text-start">5. Muevete por las diferentes posibilidades de la WebApp: consulta de
                     normativa, gestión de calendario, visualizador de enfrentamientos, histórico de temporadas...</p>
-                <img src="src/img/landing/swappadel-options.png" class="img-content" alt="Opciones-Swappadel-Demo">
+                <img src="src/img/landing/swappadel-options.png" class="img-content" alt="Opciones de Swappadel">
             </div>
 
             <div class="content-grup cnt-gr-right">
-                <h3 class="content-title">Dinamismo y frenetismo</h3>
+                <h2 class="content-title">Dinamismo y frenetismo</h2>
                 <div class="row align-items-center">
                     <div class="col-sm-6 order-sm-1 order-2">
                         <!-- <img src="src/img/landing/swappadel-calendar.png" class="img-fluid h-100" style="object-fit: cover;"> -->
-                        <img src="src/img/landing/swappadel-calendar.png" class="img-content">
+                        <img src="src/img/landing/swappadel-calendar.png" class="img-content" alt="Ejemplo de calendario de temporada">
                     </div>
                     <div class="col-sm-6 order-sm-2 order-1">
                         <p class="content-text">Grácias a la organización del calendario anual podemos contar con una
@@ -230,7 +260,7 @@
             </div>
 
             <div class="content-grup cnt-gr-left">
-                <h3 class="content-title">Competiciones personalizadas</h3>
+                <h2 class="content-title">Competiciones personalizadas</h2>
                 <p class="content-text">Ya seas un club, una empresa o un grupo de amigos, en <span class="swap-mark">Swap
                         Padel</span> te damos la posibilidad
                     de tener tu propia competición, <span class="swap-mark">Swap padel</span> es para todos!</p>
@@ -239,7 +269,7 @@
                     <div class="col-sm-6">
                         <p class="content-text">Todas nuestras competiciones incluyen:</p>
                         <ul>
-                            <li class="cnt-li"><span class="cnt-li-text">Gestión de las tempordas</span></li>
+                            <li class="cnt-li"><span class="cnt-li-text">Gestión de las temporadas</span></li>
                             <li class="cnt-li"><span class="cnt-li-text">Acceso a nuestra WebApp</span></li>
                             <li class="cnt-li"><span class="cnt-li-text">Bote de bolas para cada jugador </span></li>
                             <li class="cnt-li"><span class="cnt-li-text">Trofeos para los ganadores</span></li>
@@ -254,7 +284,7 @@
                 </div>
             </div>
             <div class="content-grup cnt-gr-left">
-                <h3 class="content-title">Contáctanos</h3>
+                <h2 class="content-title">Contáctanos</h2>
                 <div class="content-contact d-flex justify-content-around flex-column flex-sm-row justify-content-center">
                     <div class="d-flex align-items-center mb-2 mb-sm-0">
                         <a href="mailto:hola@swappadeltour.com" style="text-decoration:none;color:inherit">
