@@ -212,7 +212,7 @@
                         <span class="cnt-li-title">¿Cómo es la gestión de los partidos?</span>
                         <p>Al comenzar la temporada, se generará automáticamente el calendario y podrás gestionar desde
                             nuestra
-                            plataforma los horarios, resultados, clasificaciones y muchas más funcionalidades.</p>
+                            WebApp los horarios, resultados, clasificaciones y muchas más funcionalidades.</p>
                     </li>
                 </ul>
             </div>
