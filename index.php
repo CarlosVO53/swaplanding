@@ -265,7 +265,9 @@
                         </a>
                     </div>
                     <div class="d-flex align-items-center">
-                        <a href="https://www.instagram.com/swappadel/" style="text-decoration:none;color:inherit">
+                        <a href="https://www.instagram.com/swappadel/" target="_blank"
+                        rel="noopener noreferrer"
+                        style="text-decoration:none;color:inherit">
                             <div class="d-flex align-items-center">
                                 <i class="fa fa-instagram" aria-hidden="true"></i>
                                 <span>@swappadel</span>
