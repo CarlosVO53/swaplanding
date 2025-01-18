@@ -19,10 +19,6 @@
     /* Opcional: normal o italic */
 }
 
-html,
-body {
-    overflow-x: hidden;
-}
 
 .anton-regular {
     font-family: "Anton", serif;
