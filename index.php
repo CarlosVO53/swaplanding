@@ -64,6 +64,9 @@
         <link rel="icon" type="image/png" sizes="32x32" href="src/img/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="96x96" href="src/img/favicon/favicon-96x96.png">
         <link rel="icon" type="image/png" sizes="16x16" href="src/img/favicon/favicon-16x16.png">
+        <!-- AOS CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
         <link rel="manifest" href="/manifest.json">
         <script type="application/ld+json">
             {
@@ -143,11 +146,12 @@
         <!-- Content -->
 
         <div class="container-principal" id="main-content">
-            <div class="content-grup cnt-gr-left">
+            <div class="content-grup cnt-gr-left" data-aos="fade-left">
                 <h2 class="content-title">¿Qué es SWAP PADEL? </h2>
-                <p class="content-text"><span class="swap-mark">Swap padel</span> es una competición que ha llegado para
-                    reinventar los formatos monótonos y repetitivos con el fin de fomentar la comunidad y ofrecer la máxima
-                    emoción en cada partido.</p>
+                <p class="content-text">
+                    <span class="swap-mark">Swap padel</span> es una competición que ha llegado para
+                    reinventar los formatos monótonos y repetitivos con el fin de fomentar la comunidad y ofrecer la máxima emoción en cada partido.
+                </p>
 
                 <p class="content-text"><span class="swap-mark">Todas nuestras competiciones <b>incluyen</b>:</span></p>
                 <ul>
@@ -159,7 +163,7 @@
                 </ul>
             </div>
 
-            <div class="content-grup cnt-gr-right">
+            <div class="content-grup cnt-gr-right" data-aos="fade-right">
                 <h2 class="content-title">Lo que nos hace únicos</h2>
                 <div class="cnt-card-group">
                     <div class="cnt-card">
@@ -179,12 +183,12 @@
                         <div class="card-text">ASCENSOS Y<br>DESCENSOS POR<br>DIVISIÓN</div>
                     </div>
                 </div>
-                <div class="content-info">
+                <div class="content-info" data-aos="fade-left">
                     CLASIFICACIÓN INDIVIDUAL, LA COMPETICIÓN ESTÁ EN TUS MANOS
                 </div>
             </div>
 
-            <div class="content-grup cnt-gr-left">
+            <div class="content-grup cnt-gr-left" data-aos="fade-right">
                 <h2 class="content-title">Una nueva forma de jugar</h2>
                 <ul>
                     <li class="cnt-li">
@@ -217,26 +221,31 @@
                 </ul>
             </div>
 
-            <div class="content-grup cnt-gr-left">
+            <div class="content-grup cnt-gr-left" data-aos="fade-left">
                 <h2 class="content-title">¿Cómo funciona?</h2>
-                <p class="content-text text-start">1. Consulta tu calendario</p>
-                <img src="src/img/landing/swappadel-matchs.png" class="img-content" alt="Partidos de swappadel">
-
-                <p class="content-text text-end">2.Organiza tu partido, juega e introduce tu resultado</p>
-                <img src="src/img/landing/swappadel-details.png" class="img-content" alt="Detalles de partido Swappadel">
-
-                <p class="content-text text-start">3.La clasificación se actualizará automáticamente</p>
-                <img src="src/img/landing/swappadel-standing.png" class="img-content" alt="Clasificación de Swappadel">
-
-                <p class="content-text text-end">4. Consulta tus estadísticas</p>
-                <img src="src/img/landing/swappadel-stadistics.png" class="img-content" alt="Estadísticas de Swappadel">
-
-                <p class="content-text text-start">5. Muévete por las diferentes posibilidades de la WebApp: consulta de
-                    normativa, gestión de calendario, visualizador de enfrentamientos, histórico de temporadas...</p>
-                <img src="src/img/landing/swappadel-options.png" class="img-content" alt="Opciones de Swappadel">
+                <div>
+                    <p class="content-text text-start">1. Consulta tu calendario</p>
+                    <img src="src/img/landing/swappadel-matchs.png" class="img-content" alt="Partidos de swappadel">
+                </div>
+                <div data-aos="fade-right">
+                    <p class="content-text text-end">2.Organiza tu partido, juega e introduce tu resultado</p>
+                    <img src="src/img/landing/swappadel-details.png" class="img-content" alt="Detalles de partido Swappadel">
+                </div>
+                <div data-aos="fade-left">
+                    <p class="content-text text-start">3.La clasificación se actualizará automáticamente</p>
+                    <img src="src/img/landing/swappadel-standing.png" class="img-content" alt="Clasificación de Swappadel">
+                </div>
+                <div data-aos="fade-right">
+                    <p class="content-text text-end">4. Consulta tus estadísticas</p>
+                    <img src="src/img/landing/swappadel-stadistics.png" class="img-content" alt="Estadísticas de Swappadel">
+                </div>
+                <div data-aos="fade-left">
+                    <p class="content-text text-start">5. Muévete por las diferentes posibilidades de la WebApp: consulta la normativa, gestión de calendario, visualizador de enfrentamientos, histórico de temporadas...</p>
+                        <img src="src/img/landing/swappadel-options.png" class="img-content" alt="Opciones de Swappadel">
+                </div>
             </div>
 
-            <div class="content-grup cnt-gr-right">
+            <div class="content-grup cnt-gr-right" data-aos="fade-right">
                 <h2 class="content-title">Dinamismo y frenetismo</h2>
                 <div class="row align-items-center">
                     <div class="col-sm-6 order-sm-1 order-2">
@@ -244,23 +253,17 @@
                         <img src="src/img/landing/swappadel-calendar.png" class="img-content" alt="Ejemplo de calendario de temporada">
                     </div>
                     <div class="col-sm-6 order-sm-2 order-1">
-                        <p class="content-text">Gracias a la organización del calendario anual podemos contar con una
-                            estructura
-                            de partidos bien definida y la posibilidad de organizar nuestro evento estrella, el <span
-                                class="swap-mark">Swap Padel Day</span></p>
-                        <p class="content-text">Juega temporadas de tres meses llenas de emoción. Con nuestro sistema de
-                            ascensos y descensos, las divisiones se equilibran constantemente para garantizar la máxima
-                            competitividad.</p>
+                        <p class="content-text">Gracias a la organización del calendario anual podemos contar con una estructura de partidos bien definida y la posibilidad de organizar nuestro evento estrella, el <span class="swap-mark"> Swap Padel Day </span>
+                        </p>
+                        <p class="content-text">Juega temporadas de tres meses llenas de emoción. Con nuestro sistema de ascensos y descensos, las divisiones se equilibran constantemente para garantizar la máxima competitividad.</p>
                     </div>
                 </div>
                 <p class="content-text text-decoration-underline text-center">No te preocupes por las fechas, nos adaptamos a tus necesidades. Entendemos que cada liga tiene sus propias particularidades, así que diseñaremos el calendario de la manera que mejor encaje contigo.</p>
             </div>
 
-            <div class="content-grup cnt-gr-left">
+            <div class="content-grup cnt-gr-left" data-aos="fade-left">
                 <h2 class="content-title">Competiciones personalizadas</h2>
-                <p class="content-text">Ya seas un club, una empresa o un grupo de amigos, en <span class="swap-mark">Swap
-                        Padel</span> te damos la posibilidad
-                    de tener tu propia competición, <span class="swap-mark">Swap padel</span> es para todos!</p>
+                <p class="content-text">Ya seas un club, una empresa o un grupo de amigos, en <span class="swap-mark">Swap Padel</span> te damos la posibilidad de tener tu propia competición, <span class="swap-mark">Swap padel</span> es para todos!</p>
 
                 <div class="row align-items-center justify-content-center">
                     <div class="col-sm-6">
@@ -280,7 +283,7 @@
                     </div>
                 </div>
             </div>
-            <div class="content-grup cnt-gr-left">
+            <div class="content-grup cnt-gr-left" data-aos="fade-right">
                 <h2 class="content-title">Contáctanos</h2>
                 <div class="content-contact d-flex justify-content-around flex-column flex-sm-row justify-content-center">
                     <div class="d-flex align-items-center mb-2 mb-sm-0">
@@ -307,5 +310,13 @@
         <div class="footer">
             Todos los derechos reservados · SwappadelTour ®
         </div>
+        <!-- AOS JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+        <script>
+        AOS.init({
+            duration: 1300, // Duración de la animación en milisegundos
+            once: false // La animación solo ocurre una vez
+        });
+        </script>
     </body>
 </html>
