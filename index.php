@@ -40,10 +40,10 @@
 
 
         <!-- Hacer referencia a la hoja de estilo general -->
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style.css?v=1.0">
 
         <!-- Hacer referencia a la hoja de estilo para móviles con una media query -->
-        <link rel="stylesheet" href="css/style-mobile.css" media="only screen and (max-width: 768px)">
+        <link rel="stylesheet" href="css/style-mobile.css?v=1.0" media="only screen and (max-width: 768px)">
 
 
         <!-- Iconos -->
