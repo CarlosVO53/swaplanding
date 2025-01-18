@@ -1,15 +1,20 @@
     @media (max-width: 768px) {
+        [data-aos="fade-left"] {
+            transform: translateX(-100px) !important; /* Reduce el desplazamiento lateral */
+            opacity: 0;
+        }
 
+        [data-aos="fade-left"].aos-animate {
+            transform: translateX(0) !important;
+            opacity: 1;
+        }
         html,
         body {
             margin: 0;
             padding: 0;
             height: 100%;
             width: 100%;
-            overflow-x: hidden;
         }
-
-
         .fullscreen {
             display: flex;
             /* Centra contenido */
