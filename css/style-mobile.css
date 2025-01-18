@@ -5,7 +5,7 @@
             height: 100%;
             width: 100%;
         }
-    
+
         .fullscreen {
             display: flex; /* Centra contenido */
             justify-content: center;
@@ -13,12 +13,13 @@
             overflow: hidden;
             position: relative;
             padding: 5%;
+            height: 95%;
         }
 
         .content {
             padding-bottom: 150px;
         }
-    
+
         .video-bg {
             object-fit: cover;
             z-index: -1;
@@ -36,11 +37,11 @@
             font-size: 35px;
             padding-top: 20px;
         }
-    
+
         .subtitulo2 {
             font-size: 35px;
         }
-        
+
         .btntext-bajar {
             position: absolute;
             bottom: 0px;
@@ -48,22 +49,17 @@
             color: var(--primary-color);
             font-size: 25px;
         }
-        
+
         .arrow-icon {
             width: 54px; /* Ajusta el tamaño de la flecha */
             height: 54px; /* Ajusta el tamaño de la flecha */
             margin-left: 0px; /* Añade un espacio entre el texto y la flecha */
         }
 
-
-
-
-
-
         .container-principal{
             padding:0% 10%;
            }
-        
+
            .content-grup{
             padding: 40px 0px 20px 0px ;
            }
@@ -73,7 +69,7 @@
             font-size: 23px;
             border-bottom: solid 2px var(--color-3)
            }
-    
+
            .content-text{
             font-size: 13px;
             letter-spacing: 1px;
@@ -83,7 +79,7 @@
            .cnt-card-group {
             gap: 10px;
         }
-    
+
            .cnt-card{
             width: calc(50% - 8px);
            }
@@ -91,7 +87,7 @@
            .card-number{
             font-size: 10em;
            }
-    
+
            .card-text{
            font-size: 20px;
            padding-bottom: 15px;
@@ -110,15 +106,15 @@
             letter-spacing: 1px;
             text-align: justify;
            }
-    
+
            .cnt-li-title{
             font-size: 13px;
             letter-spacing: 1px;
            }
 
            .content-contact{
-            font-size: 15px;   
-            text-align: center; 
+            font-size: 15px;
+            text-align: center;
            }
            .content-contact i{
             font-size: 25px;
